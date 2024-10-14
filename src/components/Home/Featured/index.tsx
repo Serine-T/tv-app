@@ -37,7 +37,7 @@ const Featured = () => {
 
     return (
         <>
-            {isLoading && (
+            {isLoading && CoverImage && (
                 <StyledComponent>
                     <StyledCategory>{Category}</StyledCategory>
                     <StyledTitle>{Title}</StyledTitle>
