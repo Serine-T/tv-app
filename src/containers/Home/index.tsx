@@ -1,8 +1,8 @@
+import Home from "@components/Home";
 import { useAppDispatch, useAppSelector } from "@redux/app/hooks"
 import { getVideos } from "@redux/slices/video/actions";
 import { selectVideo } from "@redux/slices/video/selectors";
 import { useEffect } from "react";
-import Home from "@components/Home";
 
 const HomeContainer = () => {
   const dispatch = useAppDispatch();
@@ -14,7 +14,7 @@ const HomeContainer = () => {
 
 
   return (
-    <div>
+    <>
       {isLoading ? (
         <p>Loading...</p>
       ) : errorMessage ? (
@@ -22,7 +22,7 @@ const HomeContainer = () => {
       ) : (
         <Home />
       )}
-    </div>
+    </>
   )
 }
 
