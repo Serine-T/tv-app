@@ -2,8 +2,9 @@ export interface IState {
   isLoading: boolean;
   trending: Video[];
   featured: Video | null;
-  lastViewed: string | null;
+  lastViewed: Video | null;
   errorMessage?: string | null;
+  isPlay: boolean;
 }
 
 export interface Video {

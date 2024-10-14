@@ -3,6 +3,7 @@ import { styled } from '@mui/material/styles';
 
 export const StyledText = styled(Typography)(({ theme }) => ({
   color: theme.palette.common.white,
-  textTransform: 'uppercase'
+  textTransform: 'uppercase',
+  cursor: 'pointer'
 }));
 

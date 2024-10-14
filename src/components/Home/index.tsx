@@ -1,13 +1,15 @@
-import Trending from './Trending';
-import Featured from './Featured';
-import Menu from './Menu';
+import { StyledContainer } from "./styles";
+
+import MenuSection from "./Menu";
+import Featured from "./Featured";
+import Trending from "./Trending";
 
 const Home = () => (
-  <>
+  <StyledContainer>
+    <MenuSection />
     <Featured />
     <Trending />
-    <Menu />
-  </>
+  </StyledContainer>
 );
 
 export default Home;

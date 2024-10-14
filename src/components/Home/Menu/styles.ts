@@ -7,7 +7,7 @@ export const SidebarContainer = styled(Stack, {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'flex-start',
-  width: isHovered ? '100%' : '60px',
+  width: isHovered ? '100%' : '100px',
   height: '100vh',
   backgroundColor: theme.palette.grey[50],
   padding: '20px',

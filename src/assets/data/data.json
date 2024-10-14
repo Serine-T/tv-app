@@ -22,7 +22,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "2000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -35,7 +35,7 @@
 			"MpaRating": "18+",
 			"Category": "TV Show",
 			"Duration": "2300",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -48,7 +48,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "6000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.sample-videos.com/video/mp4/sample-5s.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -61,7 +61,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "4000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.hochmuth.com/xtaf/P720p60fps.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -74,7 +74,7 @@
 			"MpaRating": "18+",
 			"Category": "TV Show",
 			"Duration": "5300",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -87,7 +87,7 @@
 			"MpaRating": "18+",
 			"Category": "TV Show",
 			"Duration": "1200",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -100,7 +100,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "4500",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -113,7 +113,7 @@
 			"MpaRating": "18+",
 			"Category": "TV Show",
 			"Duration": "2000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.sample-videos.com/video/mp4/sample-5s.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -126,7 +126,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "2300",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -139,7 +139,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "6000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.hochmuth.com/xtaf/P720p60fps.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -152,7 +152,7 @@
 			"MpaRating": "18+",
 			"Category": "TV Show",
 			"Duration": "1200",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://media.w3.org/2010/05/sintel/trailer.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -165,7 +165,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "3400",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.sample-videos.com/video/mp4/sample-5s.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -178,7 +178,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "6500",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://www.hochmuth.com/xtaf/P720p60fps.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -186,12 +186,12 @@
 			"Title": "Title 14",
 			"CoverImage": "https_specials-6.png",
 			"TitleImage": "FeaturedTitleImage.png",
-			"Date": "2021-07-10T12:16:50.894556",
+			"Date": "2021-06-17T12:16:50.894556",
 			"ReleaseYear": "2021",
 			"MpaRating": "18+",
-			"Category": "Movie",
-			"Duration": "5000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"Category": "TV Show",
+			"Duration": "2900",
+			"VideoUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -199,51 +199,12 @@
 			"Title": "Title 15",
 			"CoverImage": "https_specials-7.png",
 			"TitleImage": "FeaturedTitleImage.png",
-			"Date": "2021-05-14T12:16:50.894556",
+			"Date": "2021-09-09T12:16:50.894556",
 			"ReleaseYear": "2021",
 			"MpaRating": "18+",
 			"Category": "Movie",
-			"Duration": "1300",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-			"Description": "Info About it"
-		},
-		{
-			"Id": "16",
-			"Title": "Title 16",
-			"CoverImage": "https_specials-8.png",
-			"TitleImage": "FeaturedTitleImage.png",
-			"Date": "2021-03-25T12:16:50.894556",
-			"ReleaseYear": "2021",
-			"MpaRating": "18+",
-			"Category": "Movie",
-			"Duration": "5000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-			"Description": "Info About it"
-		},
-		{
-			"Id": "17",
-			"Title": "Title 17",
-			"CoverImage": "https_specials-1.png",
-			"TitleImage": "FeaturedTitleImage.png",
-			"Date": "2021-08-24T12:16:50.894556",
-			"ReleaseYear": "2021",
-			"MpaRating": "18+",
-			"Category": "TV Show",
-			"Duration": "400",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-			"Description": "Info About it"
-		},
-		{
-			"Id": "18",
-			"Title": "Title 18",
-			"CoverImage": "https_specials-2.png",
-			"TitleImage": "FeaturedTitleImage.png",
-			"Date": "2021-07-21T12:16:50.894556",
-			"ReleaseYear": "2021",
-			"MpaRating": "18+",
-			"Category": "TV Show",
-			"Duration": "1200",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"Duration": "1700",
+			"VideoUrl": "https://www.sample-videos.com/video/mp4/sample-5s.mp4",
 			"Description": "Info About it"
 		}
 	]
