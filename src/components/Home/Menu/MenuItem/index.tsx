@@ -22,7 +22,7 @@ const MenuItem = ({ title, icon, path, isHovered }: IMenuItem) => {
       onClick={() => handleMenuItemClick(path)}
     >
       {icon || null}
-      <IconText isHovered={isHovered}>{title}</IconText>
+      {isHovered && <IconText isHovered={isHovered}>{title}</IconText>}
     </IconWrapper>
   );
 };

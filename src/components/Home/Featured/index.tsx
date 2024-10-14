@@ -37,25 +37,25 @@ const Featured = () => {
 
     return (
         <>
-            <StyledComponent>
-                <StyledCategory>{Category}</StyledCategory>
-                <StyledTitle>{Title}</StyledTitle>
-                <Stack direction="row" gap="10px">
-                    <StyledText>{moment(Date).year()}</StyledText>
-                    <StyledText>{MpaRating}</StyledText>
-                    <StyledText>{convertDuration(Duration)}</StyledText>
-                </Stack>
-                <StyledText>{Description}</StyledText>
-                {isLoading && (
+            {isLoading && (
+                <StyledComponent>
+                    <StyledCategory>{Category}</StyledCategory>
+                    <StyledTitle>{Title}</StyledTitle>
+                    <Stack direction="row" gap="10px">
+                        <StyledText>{moment(Date).year()}</StyledText>
+                        <StyledText>{MpaRating}</StyledText>
+                        <StyledText>{convertDuration(Duration)}</StyledText>
+                    </Stack>
+                    <StyledText>{Description}</StyledText>
+                
                     <Stack direction="row" gap="10px" mt={2}>
                         <StyledButton isPlay variant="contained">Play</StyledButton>
                         <StyledButton variant="outlined">More Info</StyledButton>
                     </Stack>
-                )}
-            </StyledComponent>
-
+                </StyledComponent>
+            )}
             <StyledImgContainer>
-                {isLoading && CoverImage ? ( // Show cover image while loading
+                {isLoading && CoverImage ? (
                     <StyledImg alt="" src={getImagePath(CoverImage)} />
                 ) : (
                     VideoUrl && (

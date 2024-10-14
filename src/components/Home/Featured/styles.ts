@@ -8,7 +8,7 @@ export const StyledComponent = styled(Stack)(() => ({
     position:'absolute',
     top: 0, 
     left: 0, 
-    padding: '100px 20px 10px 115px',
+    padding: '100px 20px 10px 110px',
     zIndex: 9,
 }));
 
@@ -55,7 +55,6 @@ export const StyledImgContainer = styled(Stack)(() => ({
   position:'absolute', 
   top: 0, 
   left: 0, 
-//   zIndex: 9,
 }));
 
 export const StyledImg = styled('img')(() => ({

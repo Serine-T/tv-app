@@ -10,6 +10,7 @@ import {
 import { additionalMenuItems, mainMenuItems } from './data';
 import ButtonItem from './ButtomItem';
 import Profile from './Profile';
+import Box from '@mui/material/Box';
 
 const Sidebar: React.FC = () => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
@@ -17,7 +18,7 @@ const Sidebar: React.FC = () => {
   const handleHover = (hover: boolean) => setIsHovered(hover);
 
   return (
-    <div style={{ height: '100vh', zIndex: 999 }}>
+    <Box height="100vh" zIndex= {999}>
       <SidebarContainer
         onMouseEnter={() => handleHover(true)}
         onMouseLeave={() => handleHover(false)}
@@ -58,7 +59,7 @@ const Sidebar: React.FC = () => {
           </MenuIcons>
         )}
       </SidebarContainer>
-    </div>
+    </Box>
   );
 }
 
