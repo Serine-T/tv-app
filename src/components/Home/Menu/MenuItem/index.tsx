@@ -1,23 +1,30 @@
-import ListItemText from '@mui/material/ListItemText';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItem from '@mui/material/ListItem';
+import { ReactNode } from 'react';
+import { IconText, IconWrapper } from './styles';
 
 interface IMenuItem {
   title: string;
-  icon?: string;
+  icon?: ReactNode;
+  path: string;
+  isHovered: boolean;
 }
 
-const MenuItem = ({ title, icon }: IMenuItem) => {
+const MenuItem = ({ title, icon, path, isHovered }: IMenuItem) => {
+  const selectedMenuItem = '/';
+
+  const handleMenuItemClick = (path: string) => {
+    //TODO: Handle menu item click here
+  };
+
   return (
-    <ListItem>
-        {icon && (
-            <ListItemIcon>
-                <img src={icon} alt={title} style={{ width: 24, height: 24 }} />
-            </ListItemIcon>
-        )}
-        <ListItemText primary={title} />
-    </ListItem>
-  )
-}
+    <IconWrapper
+      direction="row"
+      selected={selectedMenuItem === path}
+      onClick={() => handleMenuItemClick(path)}
+    >
+      {icon || null}
+      <IconText isHovered={isHovered}>{title}</IconText>
+    </IconWrapper>
+  );
+};
 
 export default MenuItem;

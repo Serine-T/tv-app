@@ -2,11 +2,9 @@ import { createTheme } from '@mui/material/styles';
 
 export const theme = createTheme({
   palette: {
-    primary: { main: '#00aaff' },
-    secondary: { main: '#ffaa00' },
-    common: {
-      white: '#fff',
-    },
+    primary: { main: '#1976d2' },
+    grey: {
+      50: '#00000020',
+    }
   },
-  typography: { fontFamily: '"Roboto", sans-serif' },
 });

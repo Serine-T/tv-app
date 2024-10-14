@@ -8,38 +8,47 @@ import watchLater from '@assets/icons/watchLater.png';
 export const mainMenuItems = [
     {
         title: 'Search',
-        icon: search,
+        icon: <img src={search} alt="Search Icon" />,
+        path: '/search',
     },
     {
         title: 'Home',
-        icon: home,
+        icon: <img src={home} alt="Home Icon" />,
+        path: '/home',
     },
     {
         title: 'TV Shows',
-        icon: tvShow,
+        icon: <img src={tvShow} alt="TV Shows Icon" />,
+        path: '/tv-shows',
     },
     {
         title: 'Movies',
-        icon: movies,
+        icon: <img src={movies} alt="Movies Icon" />,
+        path: '/movies',
     },
     {
         title: 'Genres',
-        icon: genres, 
+        icon: <img src={genres} alt="Genres Icon" />,
+        path: '/genres',
     },
     {
         title: 'Watch Later',
-        icon: watchLater,
+        icon: <img src={watchLater} alt="Watch Later Icon" />,
+        path: '/watch-later',
     },
 ];
 
 export const additionalMenuItems = [
     {
         title: 'Language',
+        path: '/language', 
     },
     {
-        title: 'Get Help',
+        title: 'Help',
+        path: '/help', 
     },
     {
         title: 'Exit',
+        path: '/exit', 
     },
 ];

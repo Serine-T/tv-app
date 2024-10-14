@@ -14,7 +14,7 @@ export const StyledComponent = styled(Stack)(() => ({
     top: 0, 
     left: 0, 
     zIndex: 10,
-    padding: '200px 150px'
+    padding: '100px 150px'
 }));
 
 export const StyledCategory = styled(Typography)(({ theme }) => ({
@@ -26,7 +26,7 @@ export const StyledCategory = styled(Typography)(({ theme }) => ({
 export const StyledTitle = styled(Typography)(({ theme }) => ({
     color: theme.palette.common.white,
     fontSize: '60px',
-    fontWeight: 'bold',
+    fontWeight: 900,
     textTransform: 'uppercase'
 }));
 

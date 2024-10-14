@@ -1,4 +1,4 @@
-import Home from "@components/Home";
+import Home from "@components/Home/index";
 import { useAppDispatch, useAppSelector } from "@redux/app/hooks"
 import { getVideos } from "@redux/slices/video/actions";
 import { selectVideo } from "@redux/slices/video/selectors";
